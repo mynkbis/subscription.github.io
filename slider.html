@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css">
+    <script src="./slider.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbox">
+        <input type="search" placeholder="Search Plants" />
+        <button class="btnClk" onclick="helloo()">Shop Plants</button>
+    </nav>
+    <div>
+        <div class="container">
+            <h1>Indoor plants made easy</h1>
+            <div class="heading">
+                <p>Patch plants makes it easy for you to find a plant that fits
+                    your home environment</p>
+            </div>
+        </div>
+        <div class="buttonBox">
+            <button class="btnClk">Shop Plants</button>
+        </div>
+        <!--slider one-->
+
+        <!--slider two-->
+        <!-- <div class="curved"></div>
+            <div class="buttn-container">
+                <button class="nxt-btn"> > </button>
+                <button class="prev-btn"> > </button>
+            </div>
+            <div class="Product">
+                <div class="image-container">
+                    <img src="./Frame 2.png" alt="image1" style="width:60%; height: 600px; margin: 0 auto;" />
+                </div>
+                <div class="image-container">
+                    <img src="./Frame 3.png" alt="image1" style="width:50%; height: 600px; margin: 0 auto;" />
+                </div>
+                <div class="image-container">
+                    <img src="./Frame 4.png" alt="image1" style="width:50%; height: 600px; margin: 0 auto;" />
+                </div>
+            </div>
+            <div class="grph2"></div> -->
+        <!-- <div class="curved"></div> -->
+        <div class="curved1"></div>
+        <div class="carousel" data-flickity='{ "wrapAround": true }' style="height: 800px">
+            <div class="carousel-cell">
+                <img src="./Frame 2.png" style="width: 80%; height:500px" />
+            </div>
+            <div class="carousel-cell">
+                <img src="./Frame 3.png" style="width: 80%; height:500px" /></div>
+
+            <div class="carousel-cell">
+                <img src="./Frame 4.png" style="width: 80%; height:500px" /></div>
+
+        </div>
+        <div class="grph3"></div>
+    </div>
+    <script src=" https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">
+    </script>
+</body>
+
+</html>

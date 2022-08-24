@@ -1,4 +1,4 @@
-@import url('https: //fonts.googleapis.com/css?family=Kite_one');
+@import url('https://fonts.googleapis.com/css2?family=Kite+one');
 @import url('https: //fonts.googleapis.com/css?family=Lato');
 
 * {
@@ -9,7 +9,7 @@
 body {
     text-align: center;
     justify-content: center;
-     background-image: url('/background.jpeg'); 
+    /* background-image: url('/background.jpeg'); */
     background-repeat: no-repeat;
     overflow-x: hidden;
 
@@ -180,13 +180,51 @@ input {
     color: transparent;
 }
 
+.container-main {}
+
 
 @media (max-width:756px) {
+    .navbox {
+        margin-left: 2rem;
+    }
+
+    .navbox input {
+        width: 398px;
+        height: 60px;
+        margin: 0 50px;
+        font: 12px;
+
+    }
+
+    .slder {
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .slder .curved1 {
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+
+    .slder .grph3 {
+        margin-left: 1rem;
+    }
+
+    input {
+        padding: 0 10px 0 29px;
+        background: url('') no-repeat;
+        width: 180px;
+        height: 29px;
+        overflow: hidden;
+        font-size: 18px;
+    }
+
     .heading p {
         margin-left: 2rem;
         padding: 1em;
         margin-top: -2rem;
         margin-bottom: -5rem;
+        margin-left: 5rem;
         line-height: 2rem;
         margin: 0 auto;
         font: 40%;
@@ -228,18 +266,29 @@ input {
         height: 300px;
     }
 
-    .carousel {
-        margin-left: 3rem;
+    .slder .carousel {
+        margin-left: 2.6rem;
+        height: 300px;
 
+    }
+
+    .carousel img {
+        width: 50%;
+        height: 300px
     }
 
     .curved1 {
         border-radius: 0% 0% 62% 72% / 31% 0% 100% 100%;
+        background: #fff;
         height: 140px;
-        margin-top: 0rem;
+        width: 85%;
+        margin-top: 1rem;
         position: absolute;
-        margin-left: -50rem;
         z-index: 1;
+    }
+
+    .slder {
+        margin: 2rem;
     }
 
     .grph3 {
@@ -409,7 +458,7 @@ input {
     background: #fff;
     height: 140px;
     width: 85%;
-    margin-top: 1rem;
+    margin-top: 0rem;
     position: absolute;
     margin-left: 9rem;
     z-index: 1;

@@ -4,9 +4,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
 const shoping = document.querySelector('btnClk');
-
 const helloo = () => {
-console.log("thank you for shoppping")
+alert("Thank You For Your Interest In Our Product")
 }
 
 

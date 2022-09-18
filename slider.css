@@ -160,7 +160,7 @@ input {
     font-size: 0px;
     margin-top: 4rem;
     width: 80%;
-    margin-left: 12rem;
+    margin-left: 10rem;
 
 
 }
@@ -181,129 +181,6 @@ input {
 }
 
 .container-main {}
-
-
-@media (max-width:756px) {
-    .navbox {
-        margin-left: 2rem;
-    }
-
-    .navbox input {
-        width: 398px;
-        height: 60px;
-        margin: 0 50px;
-        font: 12px;
-
-    }
-
-    .slder {
-        margin-top: 3rem;
-        margin-left: 1rem;
-    }
-
-    .slder .curved1 {
-        margin-left: 0rem;
-        margin-top: -1rem;
-    }
-
-    .slder .grph3 {
-        margin-left: 1rem;
-    }
-
-    input {
-        padding: 0 10px 0 29px;
-        background: url('') no-repeat;
-        width: 180px;
-        height: 29px;
-        overflow: hidden;
-        font-size: 18px;
-    }
-
-    .heading p {
-        margin-left: 2rem;
-        padding: 1em;
-        margin-top: -2rem;
-        margin-bottom: -5rem;
-        margin-left: 5rem;
-        line-height: 2rem;
-        margin: 0 auto;
-        font: 40%;
-    }
-
-    .container h1 {
-        font-size: 50px;
-        margin-top: -3rem;
-    }
-
-    .buttonBox {
-        margin-bottom: -2rem;
-    }
-
-    .curved {
-        border-radius: 0% 0% 62% 72% / 31% 0% 100% 100%;
-        background: #fff;
-        height: 100px;
-        width: 110%;
-        margin-top: 1rem;
-        position: absolute;
-        margin-left: -5rem;
-        z-index: 1;
-
-    }
-
-    .grph {
-        border-radius: 100% 100% 0% 0% / 100% 100% 100% 100%;
-        background: #ffff;
-        height: 100px;
-        width: 110%;
-        position: absolute;
-        margin-top: 30rem;
-        margin-left: -5rem;
-
-    }
-
-    .carousel-inner {
-        height: 300px;
-    }
-
-    .slder .carousel {
-        margin-left: 2.6rem;
-        height: 300px;
-
-    }
-
-    .carousel img {
-        width: 50%;
-        height: 300px
-    }
-
-    .curved1 {
-        border-radius: 0% 0% 62% 72% / 31% 0% 100% 100%;
-        background: #fff;
-        height: 140px;
-        width: 85%;
-        margin-top: 1rem;
-        position: absolute;
-        z-index: 1;
-    }
-
-    .slder {
-        margin: 2rem;
-    }
-
-    .grph3 {
-        border-radius: 100% 100% 0% 0% / 100% 100% 100% 100%;
-        background: #ffff;
-        height: 140px;
-        width: 85%;
-        position: absolute;
-        margin-top: -25rem;
-        margin-left: 9rem;
-    }
-
-}
-
-
 
 
 /* Flickity v2.3.0 https://flickity.metafizzy.com */
@@ -471,5 +348,129 @@ input {
     width: 85%;
     position: absolute;
     margin-top: -25rem;
-    margin-left: 9rem;
+    margin-left: 8rem;
+}
+
+@media (max-width:756px) {
+    .navbox {
+        margin-left: 2rem;
+    }
+
+    .navbox input {
+        width: 398px;
+        height: 60px;
+        margin: 0 50px;
+        font: 12px;
+
+    }
+
+    .slder {
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .slder .curved1 {
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+
+    .slder .grph3 {
+        margin-left: 1rem;
+    }
+
+    input {
+        padding: 0 10px 0 29px;
+        background: url('') no-repeat;
+        width: 180px;
+        height: 29px;
+        overflow: hidden;
+        font-size: 18px;
+    }
+
+    .heading p {
+        margin-left: 2rem;
+        padding: 1em;
+        margin-top: -2rem;
+        margin-bottom: -5rem;
+        margin-left: 5rem;
+        line-height: 2rem;
+        margin: 0 auto;
+        font: 40%;
+    }
+
+    .container h1 {
+        font-size: 50px;
+        margin-top: -3rem;
+    }
+
+    .buttonBox {
+        margin-bottom: -2rem;
+    }
+
+    .curved {
+        border-radius: 0% 0% 62% 72% / 31% 0% 100% 100%;
+        background: #fff;
+        height: 100px;
+        width: 110%;
+        margin-top: 1rem;
+        position: absolute;
+        margin-left: -5rem;
+        z-index: 1;
+
+    }
+
+    .grph {
+        border-radius: 100% 100% 0% 0% / 100% 100% 100% 100%;
+        background: #ffff;
+        height: 100px;
+        width: 110%;
+        position: absolute;
+        margin-top: 30rem;
+        margin-left: -5rem;
+
+    }
+
+    .carousel-inner {
+        height: 300px;
+    }
+
+    .slder .carousel {
+        margin-left: 2rem;
+        height: 100px;
+
+    }
+
+    .carousel img {
+        width: 100%;
+        height: 10px;
+
+    }
+
+    .curved1 {
+        border-radius: 0% 0% 62% 72% / 31% 0% 100% 100%;
+        background: #fff;
+        height: 140px;
+        width: 75%;
+        margin-top: 1rem;
+        position: absolute;
+        margin-left: -2rem;
+        z-index: 1;
+        border: 2px solid red;
+    }
+
+    .slder {
+        margin: 2rem;
+    }
+
+    .grph3 {
+        border-radius: 100% 100% 0% 0% / 100% 100% 100% 100%;
+        background: #ffff;
+        height: 80px;
+        width: 75%;
+        position: absolute;
+        margin-top: -23rem;
+        margin-left: 8rem;
+
+    }
+
 }
